@@ -1,19 +1,9 @@
-Name: Align Assign
+Name: Align Assign Operator
 Description: Aligns '<-' or '=' assignment operators within a highlighted area.
 Binding: alignAssign
 Interactive: false
 
-Name: Align Assign Arrow
-Description: Aligns '<-' assignment operators within a highlighted area.
-Binding: alignAssignArrow
-Interactive: false
-
-Name: Align Assign Equal
-Description: Aligns assignment '=' operators within a highlighted area.
-Binding: alignAssignEqual
-Interactive: false
-
 Name: Align Assign Hashtag
-Description: Aligns assignment '#' operators within a highlighted area.
+Description: Aligns '#' within a highlighted area.
 Binding: alignAssignHashtag
 Interactive: false

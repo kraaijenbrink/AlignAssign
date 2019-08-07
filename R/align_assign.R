@@ -78,23 +78,23 @@ alignAssign <- function(rgx_op = NULL) {
   insertr(insertList)
 }
 
-#' Align a highlighted region's assignment operators.
+#' #' Align a highlighted region's assignment operators.
+#' #'
+#' #' @return Aligns the equal sign assignment operators (\code{=}) within a
+#' #' highlighted region.
+#' #' @export
+#' alignAssignEqual <- function() {
+#'   alignAssign("=")
+#' }
 #'
-#' @return Aligns the equal sign assignment operators (\code{=}) within a
-#' highlighted region.
-#' @export
-alignAssignEqual <- function() {
-  alignAssign("=")
-}
-
-#' Align a highlighted region's assignment operators.
-#'
-#' @return Aligns the single caret operators (\code{<-}) within a
-#' highlighted region.
-#' @export
-alignAssignArrow <- function() {
-  alignAssign("<-")
-}
+#' #' Align a highlighted region's assignment operators.
+#' #'
+#' #' @return Aligns the single caret operators (\code{<-}) within a
+#' #' highlighted region.
+#' #' @export
+#' alignAssignArrow <- function() {
+#'   alignAssign("<-")
+#' }
 
 #' Align a highlighted region's comment hastags.
 #'
