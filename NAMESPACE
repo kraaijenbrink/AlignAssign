@@ -3,3 +3,4 @@
 export(alignAssign)
 export(alignAssignArrow)
 export(alignAssignEqual)
+export(alignAssignHashtag)

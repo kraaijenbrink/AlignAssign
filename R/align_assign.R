@@ -96,6 +96,16 @@ alignAssignArrow <- function() {
   alignAssign("<-")
 }
 
+#' Align a highlighted region's comment hastags.
+#'
+#' @return Aligns the hastags (\code{#}) within a
+#' highlighted region.
+#' @export
+alignAssignHashtag <- function() {
+  alignAssign("#")
+}
+
+
 guess_operator <- function(area = captureArea(capture())) {
   area <- strsplit(area, "\n")
   counts <- list(

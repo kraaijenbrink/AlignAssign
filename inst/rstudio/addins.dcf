@@ -12,3 +12,8 @@ Name: Align Assign Equal
 Description: Aligns assignment '=' operators within a highlighted area.
 Binding: alignAssignEqual
 Interactive: false
+
+Name: Align Assign Hashtag
+Description: Aligns assignment '#' operators within a highlighted area.
+Binding: alignAssignHashtag
+Interactive: false
